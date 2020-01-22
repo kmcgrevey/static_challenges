@@ -1,0 +1,59 @@
+h1 {
+  font-size: 4vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.005em;
+  color: white;
+  background-color: red;
+}
+
+h2 {
+  font-size: 2vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.005em;
+}
+
+h3 {
+  font-size: 1vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.005em;
+}
+
+section {
+  display: inline-block;
+  width: 25%;
+  margin: 2%;
+}
+
+.sidebar {
+  display: block;
+  width: 100%;
+  position: relative;
+
+
+}
+
+.main_intro {
+  width: 60%;
+  margin: 2%;
+  font-size: 1.5vw;
+}
+
+.img_main {
+  width: 100%;
+}
+
+.img2 {
+  width: 100%;
+}
+
+footer {
+  background-color: grey;
+  color: white;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  font-size: 1.5vw;
+}
