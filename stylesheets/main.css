@@ -1,11 +1,12 @@
 h1 {
-  font-size: 3.5vw;
+  font-size: 2.5vw;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   letter-spacing: 0.005em;
   color: white;
-  background-color: red;
+  background-color: firebrick;
   height: 5%;
+  vertical-align: middle;
 }
 
 h2 {
@@ -16,26 +17,26 @@ h2 {
 }
 
 h3 {
-  font-size: 1vw;
+  font-size: 1.2vw;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   letter-spacing: 0.005em;
 }
 
-section {
-  display: inline-block;
-  width: 25%;
-  margin: 2%;
+p {
+  font-size: 1.1vw;
+  font-family: Helvetica, sans-serif;
 }
 
-.sidebar {
-  display: block;
-  width: 100%;
-  position: relative;
+section {
+  display: inline-block;
+  width: 75%;
+  margin: 5%;
+  float: right;
 }
 
 .header2 {
-  background-color: grey;
+  background-color: dimgrey;
   width: 100%;
   height: 3%;
   font-family: Helvetica, sans-serif;
@@ -45,11 +46,20 @@ section {
 }
 
 .main_intro {
-  width: 60%;
+  width: 70%;
   margin: 2%;
+  float: left;
   font-family: Helvetica, sans-serif;
   font-size: 1.5vw;
   text-align: justify;
+}
+
+.sidebar {
+  display: block;
+  width: 25%;
+  height: 90%;
+  float: right;
+  background-color: inherit;
 }
 
 .img_main {
@@ -57,17 +67,18 @@ section {
 }
 
 .img2 {
+  display: block;
   width: 100%;
 }
 
 footer {
-  background-color: grey;
+  background-color: dimgrey;
   color: white;
   width: 100%;
-  position: fixed;
-  left: 0;
+  position: absolute;
+  bottom: 0px;
   font-family: Helvetica, sans-serif;
-  font-size: 1.5vw;
+  font-size: 1.1vw;
   text-align: left;
   padding: 2%
 }
